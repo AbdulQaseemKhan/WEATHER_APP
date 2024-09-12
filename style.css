@@ -1,0 +1,136 @@
+
+body{
+    display: flex;
+    align-items: center;
+    background-color: #8FBFE0;
+    justify-content: center;
+}
+.contaner{
+height: 630px;
+width: 30%;
+color: white;
+text-align: center;
+justify-content: center;
+background-color:#0B121E;
+border: 2px solid black;
+background-repeat: no-repeat;
+background-size:cover;
+border-radius: 10px;
+}
+.head{
+    height: 120px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+#heading{
+    margin: 0;
+    padding: 0;
+}
+
+.picture{
+    height: 200px;
+    width: 100%;
+}
+
+.mainContaner{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.value{
+    height: 200px;
+    width: 50%;
+    font-size: 16px;
+    font-weight: bolder;
+
+
+}
+.value2{
+    height: 200px;
+    width: 50%;
+    font-size: 16px;
+    font-weight: bolder;
+
+   
+
+}
+ .hide{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #202B3C;
+    margin-top: 7px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 97%; 
+ }
+ .text{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #202B3C;
+    margin-top: 7px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 100%; 
+ }
+#val6{
+    margin: 5px;
+}
+
+#val1{
+    margin: 5px ;
+}
+#val2{
+    margin: 5px ;
+}
+#val3{
+    margin: 5px ;
+}
+#val5{
+    margin: 0;
+    font-size: 13px;
+}
+#val4{
+    margin: 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#user{
+    margin: 0;
+    height: 35px;
+    color: WHITE;
+    background: transparent;
+    border-top-left-radius: 10px;
+    border: #202B3C solid 3px;
+    width: 218px;
+}
+
+#submit{
+    height:35px ;
+    width: 57px;
+    border: #202B3C solid 3px;
+    border-top-right-radius:10px
+     ;
+    background: transparent;
+    color: white;
+}
+@media screen and (min-width:320px) and (max-width:745px){
+    .contaner{
+        height: 610px;
+        width: 87%;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="contaner">
+
+<div class="user_section"></div>
+    <input type="search" id="user" placeholder="Search">
+    <input type="submit" id="submit" onclick="weatherfun()">
+
+    <div class="head">
+<p id="val5"></p>
+<h1 id="heading"></h1>
+<p id="val4"></p>
+</div>
+
+<div class="picture">
+    <img src="" id="weath" alt="">
+</div>
+
+<div class="mainContaner">
+ <div class="value">
+    <div class="hide">
+        <i class="fa-solid fa-temperature-half"></i>
+        Temperature
+    <p id="val1"></p>
+    </div><br>
+    <div class="hide">
+    <i class="fa-solid fa-droplet"></i>
+    Humidity
+    <p id="val2"></p></div>
+ </div> 
+<div class="value2">
+    <div class="text">
+    <i class="fa-solid fa-wind"></i>    
+    Air-Speed
+    <p id="val3"></p>
+    </div><br>
+    <div class="text">
+    <i class="fa-solid fa-temperature-low"></i>    
+    Degree
+    <p id="val6"></p></div>
+    </div>
+    </div>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
